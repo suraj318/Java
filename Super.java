@@ -1,4 +1,4 @@
-package JavaFunctionalProgram;
+//package JavaFunctionalProgram;
 
 class Animal{
     String name="DOG";

@@ -1,4 +1,4 @@
-package JavaFunctionalProgram;
+//package JavaFunctionalProgram;
 
 public class Practice {
     public static void main(String[] args) {
