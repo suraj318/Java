@@ -3,8 +3,8 @@ package JavaFunctionalProgram;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Stream;
+//import java.util.Optional;
+//import java.util.stream.Stream;
 
 public class FP05 {
 	
@@ -21,8 +21,10 @@ public class FP05 {
 	}
 
 	private static void reverseNum(List<Integer> nums) {
-		System.out.print("reverseNum :");
+		System.out.print("reverseNum : ");
 		nums.stream().sorted(Comparator.reverseOrder()).forEach(System.out::print);
+		System.out.println("\nAsc Order : ");
+		nums.stream().sorted().forEach(System.out::print);
 	}
 
 	private static void sortedNum(List<Integer> nums, List<String> str) {
