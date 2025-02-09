@@ -20,6 +20,7 @@ public class Super {
         
         Cat cat=new Cat();
         cat.meow();
+        System.out.println("Super");
     }
 
 }
