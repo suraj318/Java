@@ -1,5 +1,4 @@
-package JavaFunctionalProgram;
-
+//package JavaFunctionalProgram;
 class Car{
     String name;
 
